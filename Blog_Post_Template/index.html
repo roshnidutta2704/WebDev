@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Anne Frank's Diary: A Timeless Legacy</h1>
+        <p class="post-meta">
+            By <span>Roshni Dutta</span><br>
+            <time datetime="11-06-2025">June 11, 2025</time>
+        </p>
+    </header>
+
+    <nav class="toc">
+        <p>Table of Contents</p>
+        <ul>
+            <li>
+                <a href="#Intro">The Beginning of the Diary and the Dreams Beyond It</a>
+            </li>
+            <li>
+                <a href="#publication">Otto's Role In Publication</a>
+            </li>
+            <li>
+                <a href="#reach">Global Reach and Cultural Impact</a>
+            </li>
+            <li>
+                <a href="#vols">The Diary's Journey</a>
+            </li>
+            <li>
+                <a href="#legacy">Legacy and Significance</a>
+            </li>
+            <li>
+                <a href="#commentsection">Comments</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2 id="#Intro">The Beginning of the Diary and the Dreams Beyond It</h2>
+            <p>
+                In 1942, a young girl named Anne Frank started writing her diary, not knowing that it would be
+                celebrated as a literary gem in the future and one of the most important literary testaments of the
+                Holocaust. The Diary of a Young Girl, or Anne Frank's Diary; documents
+                her time in hiding in the Nazi-occupied Netherlands, in the company of her family.
+                Anne didn't just keep a diary; she also planned to publish a book about her time in hiding and even
+                wrote tales. Sadly, she died of typhus in the Bergen-Belsen concentration camp before she could do so.
+            </p>
+
+            <figure>
+                <img src="anne_frank.jpg"
+                    alt="Picture of Anne Frank" class="pic anne-frank">
+                <figcaption>Photo of Anne Frank</figcaption>
+            </figure>
+
+            <h2 id="publication">Otto's Role In Publication</h2>
+            <p>
+                Anne's father Otto was the only surviving member of the Frank family. He fulfilled her wish for
+                publication after the end of the Second World War, when the diary was retrieved by Hermine Miep Gies, a
+                Dutch citizen who hid Anne Frank and her family, and gave it to Otto.Otto was initially too overwhelmed
+                with grief to read it, but once he did, he discovered a side of his daughter he had never truly known.
+                Deeply moved, and with encouragement from friends, Otto decided to fulfill Anne's dream. The diary was
+                first published in Dutch in 1947 under the title Het Achterhuis. Dagboekbrieven 14 Juni 1942-1
+                Augustus 1944, meaning “The Annex: Diary Notes 14 June 1942-1 August 1944.”
+            </p>
+
+            <h2 id="reach">Global Reach and Cultural Impact</h2>
+            <p>
+                The English translation, titled Anne Frank: The Diary of a Young Girl, was published in 1952. Though it
+                faced some criticism, it quickly gained widespread popularity and touched readers across the world. Its
+                impact led to a successful stage adaptation in 1955, followed by a film version in 1959. Through Anne's
+                words, countless people came to understand the personal, human cost of the Holocaust.
+            </p>
+
+            <h2 id="vols">The Diary's Journey</h2>
+            <p>Anne's original writings were spread across:</p>
+            <ul>
+                <li><strong>Volume I</strong>: June to December 1942 (in her original diary)</li>
+                <li><strong>Volume II</strong>:December 1943 to April 1944 (in an exercise book)</li>
+                <li><strong>Volume III</strong>:April to August 1944 (on loose sheets of paper)</li>
+            </ul>
+
+            <figure>
+                <img src="anne_diary.jpg"
+                    alt="Manuscripts of the Diary" class="pic manuscript">
+                <figcaption>Manuscripts of Anne Frank's Diary</figcaption>
+            </figure>
+
+            <h2 id="legacy">Legacy and Significance</h2>
+            <p>
+                Over the years, some critics questioned the diary's authenticity. However, multiple forensic
+                investigations — including ink analysis, handwriting verification, and paper dating — have confirmed
+                that Anne's diary is genuine.
+
+                Otto Frank played a major role in preserving his daughter's legacy. He worked closely with historians
+                and eventually helped establish the Anne Frank House, a museum dedicated to remembering Anne and all
+                those who suffered during the Holocaust.
+            </p>
+
+            <figure>
+                <img src="anne frank house.webp"
+                    alt="Anne Frank House in Amsterdam" />
+                <figcaption>The Anne Frank House in Amsterdam, now a museum preserving her memory.</figcaption>
+            </figure>
+
+            <p>
+            Today, the diary remains one of the most powerful personal accounts of World War II. Through simple,
+            heartfelt words, Anne Frank captured not only the tragedy of war, but the unbreakable strength of the
+            human spirit.
+            </p>
+        </article>
+
+        <section class="comments" id="commentsection">
+            <h3>Comments</h3>
+
+            <div class="comment">
+                <p class="comment-author">Aarav Mehta</p>
+                <p class="comment-date"><time datetime="10/06/2025">10/06/2025</time></p>
+                <p>This article really resonated with me.</p>
+            </div>
+
+            <div class="comment">
+                <p class="comment-author">Simran Kaur</p>
+                <p class="comment-date"><time datetime="11/06/2025">11/06/2025</time></p>
+                <p>I love how you gave all the information. Beautifully written.</p>
+            </div>
+
+            <form class="comment-form">
+                <h4>Leave a Comment</h4>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" rows="5" required></textarea>
+
+                <input type="submit" value="Post Comment">
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Roshni Dutta. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
