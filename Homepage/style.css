@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(#2e1534, #7d3b8e)
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 0;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+header p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 5px 10px;
+    border: 1px solid #a974b2;
+    border-radius: 8px;
+}
+
+nav ul li a {
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #e168ff98;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+article {
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 243, 243, 0.693);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+article:hover {
+    transform: translateY(-5px);
+}
+
+.article-title {
+    font-size: 27px;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: 550;
+    padding: 0 10px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.publication-date {
+    font-size: 16px;
+    margin-bottom: 6px;
+    font-style: italic;
+}
+
+.summary {
+    font-size: 18.5px;
+    margin-bottom: 12px;
+}
+
+.read-more {
+    font-size: 16px;
+    padding: 8px 16px;             
+    margin-bottom: 8px;
+    display: inline-block;
+    background-color: #2e1534;
+    color: aliceblue;                   
+    text-decoration: none;
+    border: 1px solid #2e1534;
+    border-radius: 8px;
+    margin-left: 10px;
+    cursor: pointer;               
+    font-weight: 500;
+}
+
+.read-more:hover {
+    background-color: #a974b2;
+    border: 1px solid #a974b2;
+    color: #2e1534;
+    font-weight: 500;
+}
+
+footer {
+    color: aliceblue;
+    text-align: center;
+    padding: 0;
+}
+
+footer p {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #2e1534; 
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 25px;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+  }
+}
