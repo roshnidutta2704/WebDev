@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(#1b2e2b, #487a72);
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    color: #f3f6f4;
+    text-shadow: 6px 6px 8px rgba(243, 246, 244, 0.224);
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+nav ul li a {
+    color: #f3f6f4;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #9bbfab;
+}
+
+main {
+    max-width: 900px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.general,
+.tech,
+.acc,
+.content {
+    margin-bottom: 35px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #f3f6f415;
+    border: 1px solid #f3f6f4;
+    box-shadow: 6px 6px 8px rgba(243, 246, 244, 0.224);
+    transition: transform 0.3s ease;
+}
+
+.general:hover,
+.tech:hover,
+.acc:hover,
+.content:hover {
+    transform: translateY(-10px);
+}
+
+h2 {
+    padding-bottom: 25px;
+    color: #f3f6f4;
+    font-size: 25px;
+}
+
+
+.Questions {
+    color: #9bbfab;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+
+}
+
+.Answers {
+    color: #f3f6f4;
+    margin-bottom: 25px;
+}
+
+ol {
+    color: #f3f6f4;
+    font-size: 17px;
+}
+
+.extra-text {
+    padding-bottom: 25px;
+    color: #f3f6f4;
+    font-size: 20px;
+    text-align: center;
+}
+
+.back-to-top {
+    font-size: 16px;
+    padding: 12px 16px;
+    margin: 20px auto;
+    /* horizontally centers the block element */
+    display: block;
+    background-color: #1b2e2b;
+    color: #f3f6f4;
+    text-decoration: none;
+    border: 1px solid #1b2e2b;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+    max-width: 150px;
+}
+
+.back-to-top:hover {
+    background-color: #26413c;
+    border:1px solid #26413c;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    color: #f3f6f4;
+    margin-bottom: 20px;
+}
+
+footer p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.social-icons a {
+  color: #f3f6f4;
+  margin: 0 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
