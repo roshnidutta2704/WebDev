@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #111;
+  background: linear-gradient(120deg, #d2f177, #f1d87c);
+  line-height: 1.7;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  padding: 60px 20px 40px;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  border-radius: 12px;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Main Content Area */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Section Styling */
+section {
+  color: #f4f4f4;
+  padding: 35px;
+  margin-bottom: 40px;
+  border-radius: 12px;
+  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 6px;
+}
+
+/* Custom Background Colors */
+.History {
+  background-color: #808000;
+  color: #fff;
+  /* Olive */
+}
+
+.Mission {
+  background-color: #2f4f4f;
+  color: #fff;
+  /* Dark Slate Gray */
+}
+
+.Team {
+  background-color: #82481b;
+  color: #fff;
+  /* Brownish */
+}
+
+.photos {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.team-card {
+  border: 1px solid #dbc5b0;
+  border-radius: 10px;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  max-width: 150px;
+  max-height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 25px;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+  }
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+/* Footer Styling */
+footer {
+  background-color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 0.95rem;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+  border-radius: 12px 12px 0 0;
+}
